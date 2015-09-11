@@ -3,13 +3,19 @@
 # Author       : Atmatsidis Giwrgos                                            
 # Released On  : Friday 04 September 2015                                      
 # Version      : 1.0.0                                                         
-# Desription   : First of all you must make it executable and run it from Terminal { /.yourscript.* }
-#                This program greated for use it to cover all your need's.It have the most importand commands for all.
-#                And friendly menu where lead all your action's
-#                You must greate on folder and put script inside,all logfille's from command's will saved separately.
-#                BEWARE the logfilles of script refreshed in every run,and appear ONLY if you select the correct selection.
-#                If you run the same command up to one time the logfiles will keep the out-message that what you run at the first time.
-#                Also for your good navicat make a full screen your terminal!! You can use the F11 hotkey
+# Desription   : 16 χρήσιμες-βασικές εντολές που θα σας χρειαστούν αργά η γρήγορα στο Ubuntu σας.
+#		Για να τρέξετε το script θα πρέπει να το κάνετε εκτελέσιμο (chmod u+x) και ,
+# 		να το τρέξετε από το τερματικό σας {/.yourscript.*}
+#		Στο script υπάρχει μενού πολύ καθοδηγητικό για να ακολουθήσετε κάποια συγκεκριμένα μονοπατια.
+#		Μέτα από κάθε ολοκληρωμένη εκτέλεση κάποιας επιλογής (1-16) θα εμφανιστεί ένα αρχείο καταγραφής,
+#		με όλα τα μηνύματα εξόδου των εντολών για αυτό καλό θα ήταν,
+#		να δημιουργήσετε έναν φάκελο και να τρέχετε το script από εκεί μέσα :)
+#		Σημείωση: Το script ανανεώνει τα αρχεία καταγραφής κάθε φορά που τρέχει μια συγκεκριμένη επιλογή,
+#		(εάν θέλετε να συγκρίνετε ανά χρονικά διαστήματα τα αποτελέσματα θα,
+#		πρέπει να αποθηκεύσετε ξεχωριστά το αρχείο ή να το μετονομάσετε)
+#		Τέλος πριν την εκτέλεση το script ανοίξτε το τερματικό ως full screen είτε κάνοντας,
+#		κλικ στο παράθυρο 2-φορές είτε με F11.
+
 #
 # Dependencies : This script greated and tested on Ubuntu operating system,i cant guaranty for sure if that run correct to other operating's system's like Debian.                             
 #                                                                               
