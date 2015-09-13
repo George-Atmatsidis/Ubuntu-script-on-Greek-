@@ -236,7 +236,7 @@ else
  else
   if [ "$selection" = "6" ] || [ "$answer" = "6" ] ; then 
 #start Network card+driver information
-	  echo "### Οι πληροφόριες της κάρτας γραφικών και ο οδηγός (driver) αναγράφονται παρακάτω ###">network-card-information #write on logfile
+	  echo "### Οι πληροφόριες της κάρτας δικτύου και ο οδηγός (driver) αναγράφονται παρακάτω ###">network-card-information #write on logfile
     echo ""
     echo ""
     lspci -nnk | grep -iA2 net >>network-card-information
