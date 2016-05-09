@@ -72,7 +72,7 @@ boolean=""
  echo "   0.Έξοδος" 
  echo " Πατήστε την επιλογή σας παρακάτω"
   read selection
- #cheak for correct entry 
+ #check for correct entry 
  
 while (("$selection" <= 0 )) || (("$selection" > 16 ))
  do
@@ -118,7 +118,7 @@ while (("$selection" <= 0 )) || (("$selection" > 16 ))
       echo "" 
       echo "  0.Έξοδος"
        read selection   
-done #end of cheak correct entry
+done #end of check correct entry
 #create logfile for file-'s path
  if [ "$selection" = "15" ] ; then
     echo "">file-path-information
@@ -360,9 +360,9 @@ read fipath
     sel15="15"
   echo ""
   echo "  Εάν θέλετε να αναζητήσετε κάποιο άλλο αρχείο πατήστε το 1 παρακάτω ή το οποιοδήποτε άλλο πλήκτρο για έξοδο"
-   read cheak
+   read check
    clear
-while [ "$cheak" = "1" ] 
+while [ "$check" = "1" ] 
 do
   echo "  Παρακάτω πληκρολογίστε κάποιο όνομα αρχείου προς αναζήτηση"
     read fipath
@@ -373,7 +373,7 @@ do
     echo"">>file-path-information
     echo ""
     echo "  Εάν θέλετε να αναζητήσετε κάποιο άλλο αρχείο πατήστε το 1 παρακάτω ή το οποιοδήποτε άλλο πλήκτρο για έξοδο"
-       read cheak
+       read check
 done ##
 #file road information
 else
@@ -406,7 +406,7 @@ else
  #########
  
  selection="" #kill that var for not issues exist
- #cheak what done;
+ #check what done;
  if [ "$sel1" = "1" ] ; then 
     hxo1="    1.Eνημέρωση - Aναβάθμιση [ΕΚΤΕΛΕΣΤΗΚΕ ανοίξτε στο αρχειο καταγράφης]" 
   else
@@ -503,7 +503,7 @@ else
   fi    
     clear 
     
- #end of cheak what done;   
+ #end of check what done;   
  echo "" 
  echo "" 
  echo "Επιλέξτε αν θέλετε να κάνετε κάτι άλλο[πατήστε το πλήκτρο της επιλογής σας]"
@@ -544,7 +544,7 @@ else
  echo ""
  echo "Πατήστε την επιλογή σας παρακάτω εάν θέλετε να συνεχίσεται ή 0 για έξοδο"
   read answer
-  #cheak for correct entry 
+  #check for correct entry 
  
 while (("$answer" <= 0 )) || (("$answer" > 16 ))
  do
@@ -591,7 +591,7 @@ while (("$answer" <= 0 )) || (("$answer" > 16 ))
        echo ""
        echo "Πατήστε την επιλογή σας παρακάτω εάν θέλετε να συνεχίσεται ή 0 για έξοδο"
         read answer
-done #end of cheak correct entry          
+done #end of check correct entry          
 
 done #end loop
 
