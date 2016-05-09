@@ -142,7 +142,7 @@ do #start loop
  #end update 
  ##############  
 #start upgrade
-    sudo apt-get upgrade  #run command
+    sudo apt-get -y upgrade  #run command
     echo "Παρακαλώ αναμένεται καθώς η διαδικασία καταγράφετε στο αρχείο"
     echo "" >>update-upgrate-information
     echo "### apt-get upgrade output message ###" >>update-upgrate-information
@@ -150,7 +150,7 @@ do #start loop
     sudo apt-get upgrade >>update-upgrate-information
     echo "" >>update-upgrate-information
     echo "" >>update-upgrate-information
-    sudo apt-get autoremove  #run command
+    sudo apt-get -y autoremove  #run command
     echo "Παρακαλώ αναμένεται καθώς η διαδικασία καταγράφετε στο αρχείο"
     echo "" >>update-upgrate-information
     echo "### apt-get autoremove output message ###" >>update-upgrate-information
@@ -162,10 +162,10 @@ do #start loop
     if [ "$selection" = "2" ] || [ "$answer" = "2" ] ; then
 #start clean Ubuntu
 	  echo "Έχετε πραγματοποιήση τον καθαρισμό του συστήματος και τους παλαιούς πυρήνες">clean-information # Write on logfile
-    sudo apt-get --purge autoremove #run command
-    sudo apt-get autoremove  #run command
-    sudo apt-get autoclean  #run command
-    sudo apt-get clean  #run command
+    sudo apt-get --purge -y autoremove #run command
+    sudo apt-get -y autoremove  #run command
+    sudo apt-get -y autoclean  #run command
+    sudo apt-get -y clean  #run command
     sudo apt-get purge $(dpkg -l | awk '/^rc/ { print $2 }') #run command
     echo "O νεότερος πυρήνας που είναι σε χρήση είναι ο παρακάτω" && uname -rm #run command
     echo "Παρακαλώ αναμένεται καθώς η διαδικασία καταγράφετε στο αρχείο"
