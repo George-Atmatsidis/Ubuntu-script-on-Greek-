@@ -4,8 +4,8 @@
 
  > Released On  : Friday 04 September 2015
  
- > Version      : 1.0.1  current version doesn't have a graphic environment. The navigation is from terminal
-
+ > Version      : 1.0.1  Η παρούσα έκδοση δεν έχει γραφικό περιβάλλον και η πλοήγηση γίνεται μέσω Τερματικού.
+ 
                Αυτό το script σας επιτρέπει πολύ εύκολα να κάνετε τις παρακάτω ενέργειες:
 
           1. Eνημέρωση - Aναβάθμιση
