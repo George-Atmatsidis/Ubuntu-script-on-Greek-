@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # unixgadged.bash 
-# Author       : Atmatsidis Giwrgos                                            
+# Author       : Atmatsidis Giorgos                                            
 # Released On  : Friday 04 September 2015                                      
 # Version      : 1.0.0                                                         
 # Desription   : 16 χρήσιμες-βασικές εντολές που θα σας χρειαστούν αργά η γρήγορα στο Ubuntu σας.
