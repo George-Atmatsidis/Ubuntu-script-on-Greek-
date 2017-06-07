@@ -141,6 +141,15 @@ do #start loop
     sudo apt-get update >>update-upgrate-information #write on logfile the command output
  #end update 
  ##############  
+ #start dist-upgrade
+    sudo apt-get dist-upgrade #run command
+    echo "Παρακαλώ αναμένεται καθώς η διαδικασία καταγράφετε στο αρχείο"
+    echo "" >>update-upgrate-information
+    echo "### apt-get dist-upgrade output message ###" >>update-upgrate-information
+    echo "" >>update-upgrate-information
+    echo "" >>update-upgrate-information
+    sudo apt-get dist-upgrade >>update-upgrate-information #write on logfile the command output
+ #end update 
 #start upgrade
     sudo apt-get -y upgrade  #run command
     echo "Παρακαλώ αναμένεται καθώς η διαδικασία καταγράφετε στο αρχείο"
