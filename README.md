@@ -1,6 +1,6 @@
 # unixgadged 
  
- > Author       : Atmatsidis Giwrgos <https://github.com/GiwrgosAtmatsidis>                                        
+ > Author       : George Atmatsidis https://www.gatmatsidis.me/                                       
 
  > Released On  : Friday 04 September 2015
  
